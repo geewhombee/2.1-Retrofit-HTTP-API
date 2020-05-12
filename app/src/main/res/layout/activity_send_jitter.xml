@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SendJitterActivity">
+
+    <TextView
+        android:id="@+id/activity_send_jitter_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/send_a_jitter" />
+
+    <EditText
+        android:id="@+id/activity_send_jitter_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:text="Name" />
+
+    <EditText
+        android:id="@+id/activity_send_jitter_message_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/message"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:text="Message" />
+
+    <Button
+        android:id="@+id/activity_send_jitter_send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/send" />
+</LinearLayout>

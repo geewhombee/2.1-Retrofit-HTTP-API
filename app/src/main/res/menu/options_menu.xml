@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_list_jitters"
+        android:icon="@android:drawable/btn_plus"
+        android:title="@string/list_jitteres"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_item_post_jitter"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/post_jitters"
+        app:showAsAction="ifRoom|withText" />
+</menu>

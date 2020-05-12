@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2.1 attempt 2</string>
+    <string name="send_a_jitter">Send a Jitter!</string>
+    <string name="name">name</string>
+    <string name="message">message</string>
+    <string name="send">Send</string>
+    <string name="list_jitteres">List Jitters</string>
+    <string name="post_jitters">Post Jitters</string>
+</resources>
