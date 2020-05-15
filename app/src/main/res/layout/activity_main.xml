@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <!--<TextView
         android:id="@+id/activity_jitters_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,6 +14,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="List of Jitters" />
+        tools:text="List of Jitters" />-->
 
+    <ListView
+        android:id="@+id/jitters_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#673AB7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
